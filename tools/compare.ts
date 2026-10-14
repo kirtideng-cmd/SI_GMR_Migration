@@ -669,17 +669,17 @@ async function runComparison() {
   const csvRows = flatDiffsForCsv.map((d) =>
     [escapeCsv(d.Element), escapeCsv(d.Property), escapeCsv(d['Site 1']), escapeCsv(d['Site 2']), escapeCsv(d.Diff)].join(',')
   );
-  const csvPath = path.resolve('diff-report.csv');
+  const csvPath = path.resolve('reports/diff-report.csv');
   fs.writeFileSync(csvPath, [csvHeaders.join(','), ...csvRows].join('\n'), 'utf-8');
   console.log(`Saved CSV report:  ${csvPath}`);
 
   // 4. Save diff-report.json: grouped by element
-  const jsonPath = path.resolve('diff-report.json');
+  const jsonPath = path.resolve('reports/diff-report.json');
   fs.writeFileSync(jsonPath, JSON.stringify(groupedDiffs, null, 2), 'utf-8');
   console.log(`Saved JSON report: ${jsonPath}`);
 
   // 5. Save diff-report.html: readable report with light-red highlights
-  const htmlPath = path.resolve('diff-report.html');
+  const htmlPath = path.resolve('reports/diff-report.html');
   const htmlContent = generateHtmlReport(groupedDiffs, summaryList, grandTotal);
   fs.writeFileSync(htmlPath, htmlContent, 'utf-8');
   console.log(`Saved HTML report: ${htmlPath}`);

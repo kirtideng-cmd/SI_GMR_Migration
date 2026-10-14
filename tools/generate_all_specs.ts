@@ -12,7 +12,7 @@ interface TestCase {
   'Expected Result': string;
 }
 
-const tcs: TestCase[] = JSON.parse(fs.readFileSync('parsed_test_cases.json', 'utf-8'));
+const tcs: TestCase[] = JSON.parse(fs.readFileSync('manual-testcases/parsed_test_cases.json', 'utf-8'));
 
 function kebabCase(str: string): string {
   return str
@@ -57,7 +57,7 @@ for (const tc of tcs) {
   const id = tc['TC ID'];
   const nameKebab = kebabCase(tc['Test Case']);
   const filename = `${id}-${nameKebab}.spec.ts`;
-  const filePath = path.join('tests', 'news', filename);
+  const filePath = path.join('tests', 'flat', 'news', filename);
 
   const stepLines = tc['Test Steps']
     .split('\n')
@@ -543,4 +543,4 @@ test('${id} - ${tc['Test Case']}', async ({ browser }) => {
   fs.writeFileSync(filePath, content, 'utf-8');
 }
 
-console.log(`Generated ${tcs.length} test spec files in tests/news/`);
+console.log(`Generated ${tcs.length} test spec files in tests/flat/news/`);

@@ -6,6 +6,26 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true
-  }
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["src/pages/*"],
+      "@keywords/*": ["src/keywords/*"],
+      "@locators/*": ["src/locators/*"],
+      "@data/*": ["src/test-data/*"],
+      "@helpers/*": ["src/helpers/*"],
+      "@fixtures/*": ["src/fixtures/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "tests/**/*.ts",
+    "tools/**/*.ts",
+    "playwright.config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "archive",
+    "reports"
+  ]
 }

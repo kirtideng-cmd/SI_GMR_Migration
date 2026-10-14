@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { config, computeDiff, normalizeValue } from '../compare';
+import { config, computeDiff, normalizeValue } from '../../../tools/compare';
 import * as fs from 'fs';
 import * as path from 'path';
 

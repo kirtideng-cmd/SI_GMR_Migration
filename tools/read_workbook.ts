@@ -2,7 +2,7 @@ import ExcelJS from 'exceljs';
 import * as path from 'path';
 
 async function main() {
-  const filePath = path.resolve('Manual_TestCases/News_CSS_Test_Cases_With_Steps.xlsx');
+  const filePath = path.resolve('manual-testcases/News_CSS_Test_Cases_With_Steps.xlsx');
   const workbook = new ExcelJS.Workbook();
   await workbook.xlsx.readFile(filePath);
 

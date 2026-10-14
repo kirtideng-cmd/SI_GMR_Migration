@@ -19,10 +19,10 @@ interface TestResultData {
 }
 
 async function main() {
-  const reportPath = path.resolve('results/report.json');
+  const reportPath = path.resolve('reports/results/report.json');
   const reportJson = JSON.parse(fs.readFileSync(reportPath, 'utf-8'));
 
-  const parsedTcs: any[] = JSON.parse(fs.readFileSync('parsed_test_cases.json', 'utf-8'));
+  const parsedTcs: any[] = JSON.parse(fs.readFileSync('manual-testcases/parsed_test_cases.json', 'utf-8'));
   const resultsByTc: Record<string, TestResultData> = {};
 
   // Walk Playwright suites
@@ -142,12 +142,12 @@ async function main() {
     }
   }
 
-  fs.writeFileSync('results/summary.md', summaryMd, 'utf-8');
-  console.log('Saved results/summary.md');
+  fs.writeFileSync('reports/results/summary.md', summaryMd, 'utf-8');
+  console.log('Saved reports/results/summary.md');
 
   // 2. Generate News_CSS_Test_Cases_Results.xlsx
-  const srcWbPath = path.resolve('Manual_TestCases/News_CSS_Test_Cases_With_Steps.xlsx');
-  const outWbPath = path.resolve('News_CSS_Test_Cases_Results.xlsx');
+  const srcWbPath = path.resolve('manual-testcases/News_CSS_Test_Cases_With_Steps.xlsx');
+  const outWbPath = path.resolve('manual-testcases/News_CSS_Test_Cases_Results.xlsx');
 
   const workbook = new ExcelJS.Workbook();
   await workbook.xlsx.readFile(srcWbPath);

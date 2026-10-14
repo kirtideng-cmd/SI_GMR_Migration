@@ -10,6 +10,17 @@
     "typescript": "^5.9.3"
   },
   "scripts": {
-    "compare": "ts-node compare.ts"
+    "test": "playwright test",
+    "test:flat": "playwright test tests/flat/news",
+    "test:news": "playwright test tests/flat/news",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report reports/playwright-report",
+    "typecheck": "tsc --noEmit",
+    "compare": "ts-node tools/compare.ts",
+    "tool:compare": "ts-node tools/compare.ts",
+    "tool:build-reports": "ts-node tools/build_reports.ts",
+    "tool:generate-specs": "ts-node tools/generate_all_specs.ts",
+    "tool:blueprint": "ts-node tools/generate_blueprint.ts"
   }
 }
