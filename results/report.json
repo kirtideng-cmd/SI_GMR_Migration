@@ -1,0 +1,1125 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Kirti.Deng\\Desktop\\Sports Interactive\\TestScripts\\SI_GMR_Migration\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--list"
+    ],
+    "configFile": "C:\\Users\\Kirti.Deng\\Desktop\\Sports Interactive\\TestScripts\\SI_GMR_Migration\\playwright.config.ts",
+    "rootDir": "C:/Users/Kirti.Deng/Desktop/Sports Interactive/TestScripts/SI_GMR_Migration/tests/news",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Kirti.Deng/Desktop/Sports Interactive/TestScripts/SI_GMR_Migration/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Kirti.Deng/Desktop/Sports Interactive/TestScripts/SI_GMR_Migration/tests/news",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Kirti.Deng\\Desktop\\Sports Interactive\\TestScripts\\SI_GMR_Migration\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "chromium",
+        "testDir": "C:\\Users\\Kirti.Deng\\Desktop\\Sports Interactive\\TestScripts\\SI_GMR_Migration\\tests\\news",
+        "snapshotDir": "C:\\Users\\Kirti.Deng\\Desktop\\Sports Interactive\\TestScripts\\SI_GMR_Migration\\tests\\news",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "headless": true,
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results/report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "TC01-content-is-centered-with-side-gutters.spec.ts",
+      "file": "TC01-content-is-centered-with-side-gutters.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC01 - Content is centered with side gutters",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bb1b2003472f39830fd8-321245835c8c35d71ce3",
+          "file": "TC01-content-is-centered-with-side-gutters.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC02-consistent-spacing-from-top-and-bottom.spec.ts",
+      "file": "TC02-consistent-spacing-from-top-and-bottom.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC02 - Consistent spacing from top and bottom",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2d4a2ac89d2db437ee4b-fd2845b62c255a9099e6",
+          "file": "TC02-consistent-spacing-from-top-and-bottom.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC03-heading-size-weight-and-color.spec.ts",
+      "file": "TC03-heading-size-weight-and-color.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC03 - Heading size, weight and color",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "628a2683a041c0bb1091-e1486bacaf8ac7745b44",
+          "file": "TC03-heading-size-weight-and-color.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC04-heading-and-more-button-on-one-row-opposite-ends.spec.ts",
+      "file": "TC04-heading-and-more-button-on-one-row-opposite-ends.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC04 - Heading and More button on one row, opposite ends",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "22745e021e97b3cf91ba-f3e9b939e1fe99ceaec5",
+          "file": "TC04-heading-and-more-button-on-one-row-opposite-ends.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC05-more-button-border-and-corner-radius.spec.ts",
+      "file": "TC05-more-button-border-and-corner-radius.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC05 - More button border and corner radius",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "4050b0e13d6c9c16fb05-ceb1d757dba27958d6eb",
+          "file": "TC05-more-button-border-and-corner-radius.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC06-more-button-inner-spacing-and-text-style.spec.ts",
+      "file": "TC06-more-button-inner-spacing-and-text-style.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC06 - More button inner spacing and text style",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a17943e484ad04279689-692d70d15cf5d3fec93b",
+          "file": "TC06-more-button-inner-spacing-and-text-style.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC07-two-cards-side-by-side-with-equal-width.spec.ts",
+      "file": "TC07-two-cards-side-by-side-with-equal-width.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC07 - Two cards side by side with equal width",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "fce48b1ca027dbe46398-3ca5841d323c5d5961ef",
+          "file": "TC07-two-cards-side-by-side-with-equal-width.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC08-both-cards-have-the-same-height.spec.ts",
+      "file": "TC08-both-cards-have-the-same-height.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC08 - Both cards have the same height",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "13af7b8e8e7bba32ee6c-0ec993cfb412b24db1bf",
+          "file": "TC08-both-cards-have-the-same-height.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC09-gap-between-the-two-cards.spec.ts",
+      "file": "TC09-gap-between-the-two-cards.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC09 - Gap between the two cards",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "de501fcf7bc6777f2260-fb821dc67c49f294b29d",
+          "file": "TC09-gap-between-the-two-cards.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC10-image-fills-card-without-stretching.spec.ts",
+      "file": "TC10-image-fills-card-without-stretching.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC10 - Image fills card without stretching",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "6d3456ff74a4f5c2678b-bc14663b458ba887ad8a",
+          "file": "TC10-image-fills-card-without-stretching.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC11-title-overlaid-at-bottom-left-of-image.spec.ts",
+      "file": "TC11-title-overlaid-at-bottom-left-of-image.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC11 - Title overlaid at bottom-left of image",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3b2da2ac156c05611803-fd55bd0bb232c43e389a",
+          "file": "TC11-title-overlaid-at-bottom-left-of-image.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC12-title-text-readable-on-image.spec.ts",
+      "file": "TC12-title-text-readable-on-image.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC12 - Title text readable on image",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bfc46d4ecf15aa1b475b-5256db54c9c0707917d8",
+          "file": "TC12-title-text-readable-on-image.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC13-title-font-size-weight-and-line-height.spec.ts",
+      "file": "TC13-title-font-size-weight-and-line-height.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC13 - Title font size, weight and line height",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5e9e4dcc5f04ec5072ce-81df0a3aeef3f0b85f94",
+          "file": "TC13-title-font-size-weight-and-line-height.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC14-title-shown-above-the-image.spec.ts",
+      "file": "TC14-title-shown-above-the-image.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC14 - Title shown above the image",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "de911f28571cd8e774dd-f35417fd921dc8ff949d",
+          "file": "TC14-title-shown-above-the-image.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC15-long-titles-do-not-overflow-the-card.spec.ts",
+      "file": "TC15-long-titles-do-not-overflow-the-card.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC15 - Long titles do not overflow the card",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "40a1a2a0c63fa937be4f-9332c988ee0861151948",
+          "file": "TC15-long-titles-do-not-overflow-the-card.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC16-four-cards-in-one-row-with-equal-width.spec.ts",
+      "file": "TC16-four-cards-in-one-row-with-equal-width.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC16 - Four cards in one row with equal width",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "6d2a0c5240fb41a9e585-3efc9c1dd9aab1526b6b",
+          "file": "TC16-four-cards-in-one-row-with-equal-width.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC17-gap-between-small-cards.spec.ts",
+      "file": "TC17-gap-between-small-cards.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC17 - Gap between small cards",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "fdb0f91bedc8298517a1-ed280dee13c6ec25baf1",
+          "file": "TC17-gap-between-small-cards.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC18-all-small-images-have-the-same-height.spec.ts",
+      "file": "TC18-all-small-images-have-the-same-height.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC18 - All small images have the same height",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5a0acad1bcd4b9034ad9-468b8964585d4c77f561",
+          "file": "TC18-all-small-images-have-the-same-height.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC19-title-below-image-with-proper-spacing.spec.ts",
+      "file": "TC19-title-below-image-with-proper-spacing.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC19 - Title below image with proper spacing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "33ec83689b8a55b83951-68832fcd78fc6979f539",
+          "file": "TC19-title-below-image-with-proper-spacing.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC20-title-font-size-weight-color-and-line-height.spec.ts",
+      "file": "TC20-title-font-size-weight-color-and-line-height.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC20 - Title font size, weight, color and line height",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "129734e4f6c0eeaadbb8-62d591827640613c6f33",
+          "file": "TC20-title-font-size-weight-color-and-line-height.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC21-long-titles-clamped-or-wrapped-without-overlap.spec.ts",
+      "file": "TC21-long-titles-clamped-or-wrapped-without-overlap.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC21 - Long titles clamped or wrapped without overlap",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "cbbd83ba8f58457e3495-f1a5103c7295dd258cd7",
+          "file": "TC21-long-titles-clamped-or-wrapped-without-overlap.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC22-vertical-gap-between-big-row-and-small-row.spec.ts",
+      "file": "TC22-vertical-gap-between-big-row-and-small-row.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC22 - Vertical gap between big row and small row",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "576568d26c583f80952c-613fdd87acdac609a610",
+          "file": "TC22-vertical-gap-between-big-row-and-small-row.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC23-label-is-small-and-grey.spec.ts",
+      "file": "TC23-label-is-small-and-grey.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC23 - Label is small and grey",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3436d4aba00b1097f7fe-aa32efb1c49a8398b33e",
+          "file": "TC23-label-is-small-and-grey.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC24-label-position-relative-to-title.spec.ts",
+      "file": "TC24-label-position-relative-to-title.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC24 - Label position relative to title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8c77564c24b20aa54a39-ea1f3a603ca7e7f7f020",
+          "file": "TC24-label-position-relative-to-title.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC25-fixed-at-bottom-right-of-viewport.spec.ts",
+      "file": "TC25-fixed-at-bottom-right-of-viewport.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC25 - Fixed at bottom-right of viewport",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1e118560745baf27f8c3-9fa0dceccec2cd267007",
+          "file": "TC25-fixed-at-bottom-right-of-viewport.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC26-size-and-shape.spec.ts",
+      "file": "TC26-size-and-shape.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC26 - Size and shape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "31bdb338648035fa3689-85f433c422d8b6b12cc3",
+          "file": "TC26-size-and-shape.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC27-background-and-icon-color.spec.ts",
+      "file": "TC27-background-and-icon-color.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC27 - Background and icon color",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "08ad5d3ae21531ef482a-7149be443b1ff3143d5a",
+          "file": "TC27-background-and-icon-color.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC28-stays-above-other-content.spec.ts",
+      "file": "TC28-stays-above-other-content.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC28 - Stays above other content",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "4aae87fc6604c7e32e92-73eda8829564247002fc",
+          "file": "TC28-stays-above-other-content.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC29-card-hover-effect-zoom-or-shadow.spec.ts",
+      "file": "TC29-card-hover-effect-zoom-or-shadow.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC29 - Card hover effect (zoom or shadow)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3c84fa6fc266fdc2f0dd-8acce75997beb0df8e27",
+          "file": "TC29-card-hover-effect-zoom-or-shadow.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC30-title-hover-color-or-underline.spec.ts",
+      "file": "TC30-title-hover-color-or-underline.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC30 - Title hover color or underline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "cc8e6e9e38e2a59fdada-486b44b82ead10f5331f",
+          "file": "TC30-title-hover-color-or-underline.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC31-more-button-hover.spec.ts",
+      "file": "TC31-more-button-hover.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC31 - More button hover",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "6bf496321a8ef35c691d-fa5c35d6478c42c0158b",
+          "file": "TC31-more-button-hover.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC32-pointer-cursor-on-clickable-items.spec.ts",
+      "file": "TC32-pointer-cursor-on-clickable-items.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC32 - Pointer cursor on clickable items",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "6223c6b2d8b7e0662987-603d85f363da0ec1969e",
+          "file": "TC32-pointer-cursor-on-clickable-items.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC33-tablet-768px-small-cards-2-per-row.spec.ts",
+      "file": "TC33-tablet-768px-small-cards-2-per-row.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC33 - Tablet (~768px): small cards 2 per row",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2af19d11e062bb00b4ba-6592ccfe59df9bd43d5d",
+          "file": "TC33-tablet-768px-small-cards-2-per-row.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC34-mobile-375px-cards-stack-in-1-column.spec.ts",
+      "file": "TC34-mobile-375px-cards-stack-in-1-column.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC34 - Mobile (~375px): cards stack in 1 column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "6093703f3c43bcbb270a-e2022328307a8cca0a08",
+          "file": "TC34-mobile-375px-cards-stack-in-1-column.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC35-no-horizontal-scroll-at-any-width.spec.ts",
+      "file": "TC35-no-horizontal-scroll-at-any-width.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC35 - No horizontal scroll at any width",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ce4e266d88a79667483c-7a250fae481681295ee5",
+          "file": "TC35-no-horizontal-scroll-at-any-width.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "TC36-font-sizes-scale-down-on-smaller-screens.spec.ts",
+      "file": "TC36-font-sizes-scale-down-on-smaller-screens.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC36 - Font sizes scale down on smaller screens",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "733f05b0647ec48e2cdd-af1cbe819fb97b742ba0",
+          "file": "TC36-font-sizes-scale-down-on-smaller-screens.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-14T06:50:01.514Z",
+    "duration": 1335.1109999999999,
+    "expected": 0,
+    "skipped": 36,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

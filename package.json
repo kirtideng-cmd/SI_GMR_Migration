@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "playwright": "^1.64.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.5",
+    "exceljs": "^4.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "compare": "ts-node compare.ts"
+  }
+}

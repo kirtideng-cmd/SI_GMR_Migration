@@ -1,0 +1,81 @@
+Element,Property,Site 1,Site 2,Diff
+"section heading (""News"")",color,"rgb(0, 50, 122)","rgb(0, 36, 143)",changed
+"section heading (""News"")",border,"0px none rgb(0, 50, 122)","0px solid rgb(0, 36, 143)",changed
+"section heading (""News"")",width,52.48px,53.17px,+0.69px
+"section heading (""News"")",height,28px,56px,+28px
+"""More"" button",font-weight,600,700,+100
+"""More"" button",line-height,18px,20px,+2px
+"""More"" button",color,"rgb(225, 10, 21)","rgb(221, 8, 22)",changed
+"""More"" button",padding,7.5px,4px 8px,"top -3.5px, right +0.5px, bottom -3.5px, left +0.5px"
+"""More"" button",border,"1px solid rgb(225, 10, 21)","2px solid rgb(235, 20, 20)",changed
+"""More"" button",border-radius,5px,8px,+3px
+"""More"" button",background,"rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box","rgb(242, 242, 242) none repeat scroll 0% 0% / auto padding-box border-box",changed
+"""More"" button",width,50px,49.97px,-0.03px
+"""More"" button",height,25px,32px,+7px
+big card,font-size,14px,16px,+2px
+big card,line-height,normal,24px,changed
+big card,color,"rgb(0, 50, 122)","rgb(0, 0, 0)",changed
+big card,font-family,manrope,"ui-sans-serif, system-ui, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji",changed
+big card,margin,7.5px,0px,-7.5px
+big card,border,"0px none rgb(0, 50, 122)","0px solid rgb(0, 0, 0)",changed
+big card,position,static,relative,changed
+big card,width,547.5px,592px,+44.5px
+big card,height,307.97px,253.7px,-54.27px
+big card title,font-size,20px,16px,-4px
+big card title,font-weight,600,700,+100
+big card title,line-height,normal,26px,changed
+big card title,border,"0px none rgb(255, 255, 255)","0px solid rgb(255, 255, 255)",changed
+big card title,width,517.5px,592px,+74.5px
+big card title,height,54px,52px,-2px
+small card,font-size,14px,16px,+2px
+small card,line-height,normal,24px,changed
+small card,color,"rgb(0, 50, 122)","rgb(0, 0, 0)",changed
+small card,font-family,manrope,"ui-sans-serif, system-ui, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji",changed
+small card,margin,7.5px 7.5px 15px,0px,"top -7.5px, right -7.5px, bottom -15px, left -7.5px"
+small card,border,"0px none rgb(0, 50, 122)","0px solid rgb(0, 0, 0)",changed
+small card,position,static,relative,changed
+small card,width,266.25px,288px,+21.75px
+small card,height,224.27px,195.42px,-28.85px
+small card title,font-size,14px,18px,+4px
+small card title,font-weight,600,700,+100
+small card title,line-height,normal,24px,changed
+small card title,color,"rgb(0, 2, 13)","rgb(26, 26, 26)",changed
+small card title,margin,0px 0px 10px,0px,bottom -10px
+small card title,border,"0px none rgb(0, 2, 13)","0px solid rgb(26, 26, 26)",changed
+small card title,width,266.25px,288px,+21.75px
+small card title,height,38px,48px,+10px
+category label,font-size,11px,12px,+1px
+category label,font-weight,400,700,+300
+category label,line-height,13.2px,16px,+2.8px
+category label,color,"rgba(255, 255, 255, 0.5)","rgb(175, 184, 197)",changed
+category label,border,"0px none rgba(255, 255, 255, 0.5)","0px solid rgb(175, 184, 197)",changed
+category label,position,static,relative,changed
+category label,width,100%,31.91px,changed
+category label,height,auto,16px,changed
+card image,font-size,12px,16px,+4px
+card image,line-height,normal,24px,changed
+card image,color,"rgba(0, 50, 122, 0.7)","rgb(0, 0, 0)",changed
+card image,font-family,manrope,"ui-sans-serif, system-ui, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji",changed
+card image,border,"0px none rgba(0, 50, 122, 0.7)","0px solid rgb(0, 0, 0)",changed
+card image,position,absolute,static,changed
+card image,width,547.5px,592px,+44.5px
+card image,height,307.97px,253.7px,-54.27px
+card image,object-fit,fill,contain,changed
+scroll-to-top button,font-size,13.33px,NOT FOUND,N/A
+scroll-to-top button,font-weight,400,NOT FOUND,N/A
+scroll-to-top button,line-height,normal,NOT FOUND,N/A
+scroll-to-top button,color,"rgb(0, 0, 0)",NOT FOUND,N/A
+scroll-to-top button,font-family,manrope,NOT FOUND,N/A
+scroll-to-top button,padding,0px,NOT FOUND,N/A
+scroll-to-top button,margin,0px,NOT FOUND,N/A
+scroll-to-top button,gap,normal,NOT FOUND,N/A
+scroll-to-top button,border,"0px none rgb(0, 0, 0)",NOT FOUND,N/A
+scroll-to-top button,border-radius,3px,NOT FOUND,N/A
+scroll-to-top button,background,"rgb(245, 165, 0) none repeat scroll 0% 0% / auto padding-box border-box",NOT FOUND,N/A
+scroll-to-top button,box-shadow,none,NOT FOUND,N/A
+scroll-to-top button,position,relative,NOT FOUND,N/A
+scroll-to-top button,width,40px,NOT FOUND,N/A
+scroll-to-top button,height,40px,NOT FOUND,N/A
+scroll-to-top button,text-shadow,none,NOT FOUND,N/A
+scroll-to-top button,object-fit,fill,NOT FOUND,N/A
+scroll-to-top button,z-index,auto,NOT FOUND,N/A
