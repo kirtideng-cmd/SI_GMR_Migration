@@ -4,10 +4,11 @@
       "C:\\Program Files\\nodejs\\node.exe",
       "C:\\Users\\Kirti.Deng\\Desktop\\Sports Interactive\\TestScripts\\SI_GMR_Migration\\node_modules\\@playwright\\test\\cli.js",
       "test",
+      "tests/flat/news",
       "--list"
     ],
     "configFile": "C:\\Users\\Kirti.Deng\\Desktop\\Sports Interactive\\TestScripts\\SI_GMR_Migration\\playwright.config.ts",
-    "rootDir": "C:/Users/Kirti.Deng/Desktop/Sports Interactive/TestScripts/SI_GMR_Migration/tests/news",
+    "rootDir": "C:/Users/Kirti.Deng/Desktop/Sports Interactive/TestScripts/SI_GMR_Migration/tests/flat/news",
     "failOnFlakyTests": false,
     "forbidOnly": false,
     "fullyParallel": true,
@@ -21,16 +22,16 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "C:/Users/Kirti.Deng/Desktop/Sports Interactive/TestScripts/SI_GMR_Migration/test-results",
+        "outputDir": "C:/Users/Kirti.Deng/Desktop/Sports Interactive/TestScripts/SI_GMR_Migration/reports/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {},
         "id": "chromium",
         "name": "chromium",
-        "testDir": "C:/Users/Kirti.Deng/Desktop/Sports Interactive/TestScripts/SI_GMR_Migration/tests/news",
+        "testDir": "C:/Users/Kirti.Deng/Desktop/Sports Interactive/TestScripts/SI_GMR_Migration/tests/flat/news",
         "testIgnore": [],
         "testMatch": [
-          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+          "/TC\\d+.*\\.spec\\.ts/"
         ],
         "timeout": 60000
       }
@@ -39,15 +40,15 @@
       {
         "grep": {},
         "grepInvert": null,
-        "outputDir": "C:\\Users\\Kirti.Deng\\Desktop\\Sports Interactive\\TestScripts\\SI_GMR_Migration\\test-results",
+        "outputDir": "C:\\Users\\Kirti.Deng\\Desktop\\Sports Interactive\\TestScripts\\SI_GMR_Migration\\reports\\test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {},
         "name": "chromium",
-        "testDir": "C:\\Users\\Kirti.Deng\\Desktop\\Sports Interactive\\TestScripts\\SI_GMR_Migration\\tests\\news",
-        "snapshotDir": "C:\\Users\\Kirti.Deng\\Desktop\\Sports Interactive\\TestScripts\\SI_GMR_Migration\\tests\\news",
+        "testDir": "C:\\Users\\Kirti.Deng\\Desktop\\Sports Interactive\\TestScripts\\SI_GMR_Migration\\tests\\flat\\news",
+        "snapshotDir": "C:\\Users\\Kirti.Deng\\Desktop\\Sports Interactive\\TestScripts\\SI_GMR_Migration\\tests\\flat\\news",
         "testIgnore": [],
-        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "testMatch": {},
         "timeout": 60000,
         "use": {
           "headless": true,
@@ -81,13 +82,14 @@
       [
         "html",
         {
+          "outputFolder": "reports/playwright-report",
           "open": "never"
         }
       ],
       [
         "json",
         {
-          "outputFile": "results/report.json"
+          "outputFile": "reports/results/report.json"
         }
       ]
     ],
@@ -1115,8 +1117,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-14T06:50:01.514Z",
-    "duration": 1335.1109999999999,
+    "startTime": "2026-10-14T07:04:08.472Z",
+    "duration": 629.8420000000001,
     "expected": 0,
     "skipped": 36,
     "unexpected": 0,
